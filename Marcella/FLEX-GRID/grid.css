@@ -1,0 +1,42 @@
+#container{
+    display: grid;
+    border: 1px solid black;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 200px 200px 200px 200px;
+    gap: 10px 20px;
+    grid-template-areas: 
+    "nav nav nav nav"
+    "aside header header aside2"
+    "aside main main aside2"
+    "footer footer footer aside2"
+    ;
+}
+.box{
+    font-size: 30px;
+    border: 1px solid black;
+}
+#janela1{
+    background-color: blue;
+    grid-area: nav;
+}
+#janela2{
+    background-color: brown;
+    grid-area: header;
+}
+#janela3{
+    background-color: chartreuse;
+    grid-area: main;
+}
+#janela4{
+    background-color: crimson;
+    grid-area: aside;
+}
+#janela5{
+    background-color: darkgreen;
+    grid-area: footer;
+}
+#janela6{
+    background-color: blanchedalmond;
+    grid-area: aside2;
+}

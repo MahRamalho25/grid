@@ -1,0 +1,28 @@
+section{
+    display: inline;
+    margin: 25px 25px;
+    text-align: center;
+}
+main{
+    text-align: center;
+}
+.thumb{
+    display: inline-block;
+    cursor: pointer;
+    width: 120px;
+    height: 120px;
+    transition: 1.5s;
+}
+.thumb:hover{
+    transform: scale(1.3) rotate(360deg);
+}
+button{
+    background-color: black;
+    color: aliceblue;
+    width: 150px;
+    height: 50px;
+    transition: 1s;
+}
+button:hover{
+    transform:scale(1.2);
+}
